@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='UTF-8'>
+    <link rel="stylesheet" href="style.css">
+    <title>Search Github Repositories</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  </head>
+
+  <body>
+    
+    <header><h1>Search for a Github User's Repositories</h1></header>
+
+    <form>
+      <p>Type the Handle of a Github user</p>
+      <input type="text" placeholder="Type Handle here...">
+      <input type="Submit" value="Submit">
+    </form>
+
+    <p class="errorResponse"></p>
+
+    <section class="results hidden">
+      <h2>User's Repositories:</h2>
+      <ul class="repo-results"></ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
